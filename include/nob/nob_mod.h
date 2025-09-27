@@ -1,3 +1,7 @@
+/*
+LICENSING: Just follow the license of nob.h, that's it.
+*/
+
 #ifdef NOB_MOD
 #	ifdef NO_LINKERS
 NOBDEF void _nob__go_rebuild_urself(int argc, char** argv, Nob_Cmd *cflags, const char* source_path, ...);
@@ -131,4 +135,5 @@ NOBDEF void _nob__go_rebuild_urself(int argc, char** argv, Nob_Cmd *cflags, cons
 }
 #		endif
 #	endif
+
 #endif
